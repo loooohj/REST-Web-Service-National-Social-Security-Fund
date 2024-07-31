@@ -1,6 +1,6 @@
 package lobna.hajlaoui.prodcnns.Repository;
 import lobna.hajlaoui.prodcnns.DTO.Startup_actDTO;
-import lobna.hajlaoui.prodcnns.Model.Startup_act;
+import lobna.hajlaoui.prodcnns.Entity.Startup_act;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

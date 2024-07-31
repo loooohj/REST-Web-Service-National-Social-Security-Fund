@@ -1,7 +1,7 @@
 package lobna.hajlaoui.prodcnns.Repository;
 
 import lobna.hajlaoui.prodcnns.DTO.CIVP__SCV_CSCDTO;
-import lobna.hajlaoui.prodcnns.Model.CIVP__SCV_CSC;
+import lobna.hajlaoui.prodcnns.Entity.CIVP__SCV_CSC;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

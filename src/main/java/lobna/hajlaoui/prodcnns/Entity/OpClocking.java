@@ -1,4 +1,4 @@
-package lobna.hajlaoui.prodcnns.Model;
+package lobna.hajlaoui.prodcnns.Entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

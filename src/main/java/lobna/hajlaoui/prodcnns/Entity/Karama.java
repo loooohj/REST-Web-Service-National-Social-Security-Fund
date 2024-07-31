@@ -1,4 +1,4 @@
-package lobna.hajlaoui.prodcnns.Model;
+package lobna.hajlaoui.prodcnns.Entity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
