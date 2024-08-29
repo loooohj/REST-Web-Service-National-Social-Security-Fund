@@ -19,9 +19,9 @@ public class KaramaController {
     public Karama addKarama(@RequestBody Karama karama) {
         return  karama_service.save_beneficiaries_Karama(karama);
     }
-    @GetMapping("/karama/{date}/{program}")
+    @GetMapping("/lobna/{date}/{program}")
     public ResponseEntity<?> getByDate_Program(@PathVariable("date") String date,@PathVariable("program") String program) {
-
         return ResponseEntity.ok(karama_service.getByDate_Program(date,program));
     }
+
 }

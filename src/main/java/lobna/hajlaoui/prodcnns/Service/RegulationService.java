@@ -1,4 +1,4 @@
-package lobna.hajlaoui.prodcnns.Service;
+/*package lobna.hajlaoui.prodcnns.Service;
 
 import lobna.hajlaoui.prodcnns.Entity.Regulation;
 import lobna.hajlaoui.prodcnns.Repository.RegulationRepository;
@@ -12,4 +12,4 @@ public class RegulationService {
     public Regulation save_regulation(Regulation re){
         return regulation_repository.save(re);
     }
-}
+}*/

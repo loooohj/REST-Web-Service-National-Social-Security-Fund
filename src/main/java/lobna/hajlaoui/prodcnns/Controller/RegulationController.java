@@ -1,4 +1,4 @@
-package lobna.hajlaoui.prodcnns.Controller;
+/*package lobna.hajlaoui.prodcnns.Controller;
 
 import lobna.hajlaoui.prodcnns.Entity.Regulation;
 import lobna.hajlaoui.prodcnns.Service.RegulationService;
@@ -15,4 +15,4 @@ public class RegulationController {
     public Regulation addRegulation(@RequestBody Regulation re) {
         return  regulation_service.save_regulation(re);
     }
-}
+}*/

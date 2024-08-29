@@ -24,9 +24,14 @@ public class KaramaService {
         return karama_repository.save(ka);
     }
     private static String BASE_Karama_URL = "http://10.222.6.3/CNSS/beneficiaire_dt.php";
-    private final  RestTemplate restTemplate;
+    @Autowired
+    public KaramaService(RestTemplate restTemplate) {
+        this.restTemplate1 = restTemplate;
+    }
+
+    private RestTemplate restTemplate1;
     public List<KaramaDTO> getByDate_Program(String date, String program){
-            ResponseEntity<List> result = restTemplate.getForEntity(BASE_Karama_URL + "/" + date+ "/" + program, List.class);
+            ResponseEntity<List> result = restTemplate1.getForEntity(BASE_Karama_URL + "?date=" + date+ "&programme=" + program, List.class);
             return result.getBody();
     }
 }

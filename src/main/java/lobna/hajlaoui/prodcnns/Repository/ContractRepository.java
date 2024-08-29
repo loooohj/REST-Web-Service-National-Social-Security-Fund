@@ -1,5 +1,4 @@
 package lobna.hajlaoui.prodcnns.Repository;
-
 import lobna.hajlaoui.prodcnns.Entity.Contract;
 import lobna.hajlaoui.prodcnns.DTO.ContractDTO;
 import org.springframework.data.jpa.repository.JpaRepository;

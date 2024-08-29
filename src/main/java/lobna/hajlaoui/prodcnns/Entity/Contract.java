@@ -1,14 +1,12 @@
 package lobna.hajlaoui.prodcnns.Entity;
 import jakarta.persistence.*;
 import lombok.*;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 @Inheritance(strategy =InheritanceType.JOINED)
 public class Contract {
-
     @Id
     @GeneratedValue
     private Long id;

@@ -1,4 +1,4 @@
-package lobna.hajlaoui.prodcnns.Entity;
+/*package lobna.hajlaoui.prodcnns.Entity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,4 +25,4 @@ public class Regulation {
     )
     @JsonBackReference
     private Karama karama;
-}
+}*/
