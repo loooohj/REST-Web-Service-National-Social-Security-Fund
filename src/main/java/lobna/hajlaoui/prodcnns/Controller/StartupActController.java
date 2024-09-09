@@ -31,6 +31,7 @@ public class StartupActController {
    StartupActRepository startup_act_repository;
     @GetMapping("/fetchStartupData/{date}")
     public void fetchStartupData(@PathVariable("date") String date) throws Exception {
+        startup_act_repository.deleteAll();
         String url = "http://10.222.6.3/CNSS/exo_startup.php?date=" + date;
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
         String jsonResponse = response.getBody();
